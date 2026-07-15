@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Colorimetría y Catálogo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="encabezado">
+        <h1>Descubre tu Estación de Color</h1>
+        <p>Selecciona tus características para encontrar tu paleta ideal o explora nuestro catálogo.</p>
+    </header>
+
+    <main class="contenedor-principal">
+        <section class="controles-prueba">
+            <div class="grupo-seleccion">
+                <label for="tono-piel">Subtono de piel:</label>
+                <select id="tono-piel">
+                    <option value="frio">Frío (rosado, azulado)</option>
+                    <option value="calido">Cálido (amarillo, dorado, durazno)</option>
+                </select>
+            </div>
+
+            <div class="grupo-seleccion">
+                <label for="color-cabello">Color de cabello:</label>
+                <select id="color-cabello">
+                    <option value="oscuro">Oscuro (negro, castaño oscuro)</option>
+                    <option value="claro">Claro (rubio, castaño claro, pelirrojo)</option>
+                </select>
+            </div>
+
+            <button id="btn-calcular" class="boton-calcular">Ver mi paleta</button>
+        </section>
+
+        <section id="resultado" class="area-resultado">
+            <h2>Tu estación recomendada es: <span id="nombre-estacion">Realiza tu test</span></h2>
+            
+            <div class="paleta-colores">
+                <div class="caja-color color-1"></div>
+                <div class="caja-color color-2"></div>
+                <div class="caja-color color-3"></div>
+                <div class="caja-color color-4"></div>
+            </div>
+        </section>
+    </main>
+
+    <section class="seccion-preview">
+        <h3>Catálogo de Estaciones</h3>
+        <p class="subtitulo-preview">Explora las 4 paletas disponibles para asesorías de colorimetría</p>
+        
+        <div class="grid-estaciones">
+            <div class="tarjeta-estacion estacion-invierno">
+                <h4>Invierno</h4>
+                <p>Tonos fríos, intensos y profundos</p>
+                <div class="mini-paleta">
+                    <div class="m-1"></div><div class="m-2"></div><div class="m-3"></div><div class="m-4"></div>
+                </div>
+            </div>
+
+            <div class="tarjeta-estacion estacion-primavera">
+                <h4>Primavera</h4>
+                <p>Tonos cálidos, claros y luminosos</p>
+                <div class="mini-paleta">
+                    <div class="m-1"></div><div class="m-2"></div><div class="m-3"></div><div class="m-4"></div>
+                </div>
+            </div>
+
+            <div class="tarjeta-estacion estacion-verano">
+                <h4>Verano</h4>
+                <p>Tonos fríos, suaves y apagados</p>
+                <div class="mini-paleta">
+                    <div class="m-1"></div><div class="m-2"></div><div class="m-3"></div><div class="m-4"></div>
+                </div>
+            </div>
+
+            <div class="tarjeta-estacion estacion-otono">
+                <h4>Otoño</h4>
+                <p>Tonos cálidos, profundos y terrosos</p>
+                <div class="mini-paleta">
+                    <div class="m-1"></div><div class="m-2"></div><div class="m-3"></div><div class="m-4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
