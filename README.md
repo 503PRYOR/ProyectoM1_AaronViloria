@@ -9,8 +9,7 @@
 
 ¡Prueba la aplicación directamente!
 
-> **URL:** [Ver ColorFly en GitHub Pages](https://tuusuario.github.io/Proyecto_integradorM1)  
-> *(Reemplaza `tuusuario` con tu usuario de GitHub una vez subas el repositorio)*
+> **URL:** Ver ColorFly en GitHub Pages https://503pryor.github.io/ProyectoM1_AaronViloria/
 
 **Características de la demo:**
 - ✅ Generación instantánea de paletas
