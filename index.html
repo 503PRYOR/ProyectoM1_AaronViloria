@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ColorFly</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="pagina">
+    <header class="cabecera">
+      <h1>Color Fly Estudio.</h1>
+      <p>Herramienta interactiva para crear paletas de colores aleatorias.</p>
+    </header>
+
+    <main class="contenido-principal">
+      <section class="panel panel--controles" aria-labelledby="titulo-controles">
+        <h2 id="titulo-controles">Controles</h2>
+        <p class="texto-secundario">Selecciona el tamaño y presiona el botón para generar una paleta.</p>
+
+        <div class="campo">
+          <label for="tamanio-paleta">Tamaño de la paleta</label>
+          <select id="tamanio-paleta" name="tamanio-paleta">
+            <option value="6">6 colores</option>
+            <option value="8">8 colores</option>
+            <option value="9">9 colores</option>
+          </select>
+        </div>
+
+        <div class="controles-acciones">
+          <button id="btn-generar" class="boton boton--principal" type="button">Generar paleta</button>
+          <button id="btn-toggle-formato" class="boton boton--secundario" type="button">Mostrar solo HEX</button>
+          <button id="btn-guardar-paleta" class="boton boton--secundario" type="button">Guardar paleta</button>
+        </div>
+
+        <p class="nota">Haz clic en un color para copiar su código HEX al portapapeles. Usa el candado para fijar colores y mantenerlos al generar nuevas paletas.</p>
+      </section>
+
+      <section class="panel panel--resultado" aria-labelledby="titulo-resultado">
+        <h2 id="titulo-resultado">Paleta de colores generada</h2>
+        <p id="mensaje-estado" class="texto-secundario">Aún no se ha generado ninguna paleta.</p>
+
+        <div id="palette-grid" class="paleta-colores" aria-live="polite"></div>
+
+        <ul id="lista-codigos" class="lista-codigos" aria-label="Códigos HEX de los colores"></ul>
+
+        <div class="bloque-guardadas">
+          <h3>Paletas guardadas</h3>
+          <p class="texto-secundario">Guarda las combinaciones que más te gusten y vuelve a cargarlas cuando  quieras.
+          </p>
+          <div id="paletas-guardadas" class="paletas-guardadas"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pie">
+      <p>"Proyecto integrador 1 | Paleta de colores aleatoria | HTML + CSS + JavaScript"</p>
+    </footer>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/script.js" defer></script>
+</body>
+
+</html>
