@@ -1,10 +1,19 @@
 # 🎨 ColorFly - Generador de Paletas de Colores
 
-## 📝 Descripción
-**ColorFly** es una aplicación web interactiva que genera paletas de colores aleatorias de forma dinámica. Permite seleccionar el tamaño de la paleta (6, 8 o 9 colores), visualizar los colores generados, copiar códigos HEX con un clic y alternar entre formatos HSL y HEX. Incluye feedback visual, accesibilidad y diseño responsive.
+## Descripción
+Color Fly es una aplicación web que genera paletas de colores aleatorias. Permite seleccionar el tamaño de la paleta (6, 8 o 9 colores), visualizar los colores generados, copiar el código HEX y alternar entre formato HSL y HEX. También ofrece un pequeño feedback y accesibilidad básica.
 
----
+## Funcionalidades
+- Selección del tamaño de paleta: 6, 8 o 9 colores.
+- Generación de colores aleatorios en formato HSL y código HEX asociado.
+- Visualización dinámica de la paleta según el tamaño seleccionado.
+- Copiar el código HEX al portapapeles haciendo clic en un color.
+- Botón "Generar paleta" funcional.
+- Microfeedback visible mediante un toast.
+- Controles accesibles con `label` y foco visible.
+- Diseño responsive para desktop y dispositivos móviles.
 
+<<<<<<< HEAD
 ## 🚀 Demo en Vivo
 
 ¡Prueba la aplicación directamente!
@@ -37,17 +46,33 @@
 </details>
 
 ---
+ 
+---
 
-## 📚 Cómo usar la APP
+## 🚀 Demo en Vivo
 
-1. Abre la aplicación en tu navegador
-2. Selecciona el tamaño de la paleta (6, 8 o 9 colores)
-3. Haz clic en **"Generar paleta"**
-4. La paleta se mostrará con sus códigos HEX
-5. **Haz clic en un color** para copiar su código al portapapeles
-6. Usa **"Mostrar solo HEX"** para alternar entre HSL y HEX
-7. **Bloquea colores** con el candado para mantenerlos en nuevas generaciones
-8. Guarda tus paletas favoritas con **"Guardar paleta"**
+¡Prueba la aplicación directamente!
+
+> **URL:** Ver ColorFly en GitHub Pages https://503pryor.github.io/ProyectoM1_AaronViloria/
+
+**Características de la demo:**
+- ✅ Generación instantánea de paletas
+- ✅ Copiar códigos HEX al portapapeles
+- ✅ Interfaz intuitiva y responsive
+- ✅ Diseño moderno con gradientes
+
+---
+
+## Uso de la APP
+
+1. Abre `index.html` en tu navegador.
+2. Selecciona el tamaño de la paleta (6, 8 o 9 colores) desde el menú desplegable.
+3. Haz clic en **Generar paleta**.
+4. La paleta se mostrará en pantalla con sus códigos HEX.
+5. Haz clic en cualquier color para copiar su código HEX al portapapeles.
+6. Usa el botón **Mostrar solo HEX** para alternar entre mostrar HSL o solo HEX.
+7. Bloquea colores con el candado para mantenerlos en nuevas generaciones.
+8. Guarda tus paletas favoritas con **Guardar paleta**.
 
 ---
 
@@ -155,7 +180,7 @@ Este proyecto está disponible bajo licencia MIT.
 ## ✍️ Autor
 
 **Aaron Viloria**  
-[Tu GitHub](https://github.com/tuusuario) | [Tu LinkedIn](https://linkedin.com/in/tuusuario)
+[Tu GitHub](https://github.com/503PRYOR)| [Tu LinkedIn](https://www.linkedin.com/in/aaron-viloria-devia-ab60b5371/?skipRedirect=true)
 
 ---
 
