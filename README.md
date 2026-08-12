@@ -13,42 +13,6 @@ Color Fly es una aplicación web que genera paletas de colores aleatorias. Permi
 - Controles accesibles con `label` y foco visible.
 - Diseño responsive para desktop y dispositivos móviles.
 
-<<<<<<< HEAD
-## 🚀 Demo en Vivo
-
-¡Prueba la aplicación directamente!
-
-> **URL:** Ver ColorFly en GitHub Pages https://503pryor.github.io/ProyectoM1_AaronViloria/
-
-**Características de la demo:**
-- ✅ Generación instantánea de paletas
-- ✅ Copiar códigos HEX al portapapeles
-- ✅ Interfaz intuitiva y responsive
-- ✅ Diseño moderno con gradientes
-
----
-
-## ✨ Funcionalidades
-
-<details open>
-<summary><b>Haz clic para expandir/contraer</b></summary>
-
-- 🎯 **Selección de tamaño:** Elige entre 6, 8 o 9 colores
-- 🎨 **Generación aleatoria:** Colores en formato HSL con conversión a HEX
-- 📋 **Copiar al portapapeles:** Haz clic en cualquier color para copiar su código
-- 🔄 **Alternar formatos:** Cambia entre HSL y solo HEX
-- 💾 **Guardar paletas:** Almacena tus paletas favoritas (LocalStorage)
-- 🔒 **Bloquear colores:** Fija colores para mantenerlos en nuevas generaciones
-- 📱 **Responsive:** Funciona en desktop, tablet y móvil
-- ♿ **Accesibilidad:** Labels, aria-live, foco visible y navegación por teclado
-- 🎯 **Feedback visual:** Toast notifications para acciones del usuario
-
-</details>
-
----
- 
----
-
 ## 🚀 Demo en Vivo
 
 ¡Prueba la aplicación directamente!
@@ -180,7 +144,7 @@ Este proyecto está disponible bajo licencia MIT.
 ## ✍️ Autor
 
 **Aaron Viloria**  
-[Tu GitHub](https://github.com/503PRYOR)| [Tu LinkedIn](https://www.linkedin.com/in/aaron-viloria-devia-ab60b5371/?skipRedirect=true)
+[Tu GitHub](https://github.com/503PRYOR) | [Tu LinkedIn](https://www.linkedin.com/in/aaron-viloria-devia-ab60b5371/?skipRedirect=true)
 
 ---
 
