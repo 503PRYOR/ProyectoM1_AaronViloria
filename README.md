@@ -115,11 +115,6 @@ Proyecto_integradorM1/
 └── .git/               # Control de versiones
 ```
 
----
-
-## 🖼️ Capturas de Pantalla
-
-> Próximamente se agregarán capturas de pantalla y un GIF demostrativo
 
 ---
 
